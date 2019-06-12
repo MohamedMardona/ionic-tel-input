@@ -29,7 +29,7 @@
     "jquery": "^3.1.1"
   },
   "deprecated": false,
-  "description": "An Angular 2 wrapper for ionic intl-tel-input library",
+  "description": "ionic wrapper for ionic intl-tel-input library",
   "devDependencies": {
     "@angular/compiler": "^6.0.3",
     "@angular/compiler-cli": "^6.0.3",
