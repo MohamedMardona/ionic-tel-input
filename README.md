@@ -7,16 +7,25 @@
 Run following command to install  ionic-tel-input
 
 ```sh
-npm install ionic-tel-input intl-tel-input --save
+npm install ionic-tel-input intl-tel-input@12.0.3 --save
 ```
 
 After install, you need to add **intlTelInput.css**.
 
 In case of ionic, add **intlTelInput.css** in your variables.scss. For example,
-```@import 'intl-tel-input/build/css/intlTelInput.css';```
+
+*  ```@import 'intl-tel-input/build/css/intlTelInput.css';```
 
 
-replace flags folder in intel-tel-input by flags folder exist in module
+*  .iti-flag {background-image: url("../assets/imgs/flags/flags.png");}
+
+
+*  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti-flag {background-image: url("../assets/imgs/flags/flags@2x.png");}
+}
+
+* add flags folder in assets/imgs folder  
+* replace flags folder in intel-tel-input by flags folder exist in module
 
 Now add  ionicTelInputModule into your AppModule. For example,
 
