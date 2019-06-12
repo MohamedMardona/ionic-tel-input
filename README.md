@@ -1,12 +1,12 @@
 
-# Angular 2 wrapper for intl-tel-input
+# ionic wrapper for intl-tel-input
 
 # Installation
 
 Run following command to install  ionic-tel-input
 
 ```sh
-npm install  ionic-tel-input-ionic --save
+npm install  ionic-tel-input intl-tel-input --save
 ```
 
 After install, you need to add **intlTelInput.css**.
