@@ -1,0 +1,1 @@
+[{"__symbolic":"module","version":3,"metadata":{},"exports":[{"from":"./src/ionic-tel-input.module","export":["IonicTelInputModule"]},{"from":"./src/ionic-tel-input","export":["IonicTelInput"]}]}]

@@ -1,0 +1,70 @@
+{
+  "_from": "ionic-tel-input@^1.0.0",
+  "_id": "ionic-tel-input-ionic@1.0.0",
+  "_inBundle": false,
+  "_location": "/ionic-tel-input",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "ionic-tel-input@^1.0.0",
+    "name": "ionic-tel-input",
+    "escapedName": "ionic-tel-input",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  
+  "_spec": "ionic-tel-input@1.0.0",
+  "bugs": {
+    "url": "git+https://github.com/MohamedMardona/ionic-tel-input.git"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "intl-tel-input": "^12.0.3",
+    "jquery": "^3.1.1"
+  },
+  "deprecated": false,
+  "description": "An Angular 2 wrapper for ionic intl-tel-input library",
+  "devDependencies": {
+    "@angular/compiler": "^6.0.3",
+    "@angular/compiler-cli": "^6.0.3",
+    "@angular/core": "^6.0.3",
+    "@angular/platform-server": "^5.2.0",
+    "@types/intl-tel-input": "0.0.8",
+    "@types/jquery": "<2.2",
+    "es6-shim": "^0.35.3",
+    "http-server": "^0.11.1",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^6.0.0",
+    "typescript": "~2.7.2",
+    "zone.js": "^0.8.26"
+  },
+  "homepage": "https://github.com/MohamedMardona/ionic-tel-input.git#readme",
+  "keywords": [
+    "Angular2",
+    "Library",
+    "intl-tel-input"
+  ],
+  "license": "MIT",
+  "main": "ionic-tel-input.js",
+  "name": "ionic-tel-input",
+  "peerDependencies": {
+    "@angular/core": "^6.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedMardona/ionic-tel-input.git"
+  },
+  "scripts": {
+    "build": "ngc -p ./tsconfig-ngc.json",
+    "start": "http-server -c-1 .",
+    "watch": "tsc -p src -w"
+  },
+  "typings": "./ionic-tel-input.d.ts",
+  "version": "1.0.0"
+}
