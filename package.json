@@ -1,25 +1,25 @@
 {
-  "_from": "ionic-tel-input@^1.0.0",
-  "_id": "ionic-tel-input-ionic@1.0.0",
+  "_from": "ionic-tel-input@^1.0.1",
+  "_id": "ionic-tel-input-ionic@1.0.1",
   "_inBundle": false,
   "_location": "/ionic-tel-input",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "ionic-tel-input@^1.0.0",
+    "raw": "ionic-tel-input@^1.0.1",
     "name": "ionic-tel-input",
     "escapedName": "ionic-tel-input",
-    "rawSpec": "^1.0.0",
+    "rawSpec": "^1.0.1",
     "saveSpec": null,
-    "fetchSpec": "^1.0.0"
+    "fetchSpec": "^1.0.1"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
   
-  "_spec": "ionic-tel-input@1.0.0",
+  "_spec": "ionic-tel-input@1.0.1",
   "bugs": {
     "url": "git+https://github.com/MohamedMardona/ionic-tel-input.git"
   },
@@ -66,5 +66,5 @@
     "watch": "tsc -p src -w"
   },
   "typings": "./ionic-tel-input.d.ts",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
