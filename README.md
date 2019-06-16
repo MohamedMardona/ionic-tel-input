@@ -1,6 +1,6 @@
 
 
-# ionic wrapper for intl-tel-input
+# ionic wrapper for intl-tel-input-mobile
 
 # Installation
 
@@ -14,7 +14,7 @@ After install, you need to add **intlTelInput.css**.
 
 In case of ionic, add **intlTelInput.css** in your variables.scss. For example,
 
-*  ```@import 'intl-tel-input/build/css/intlTelInput.css';```
+*  ```@import 'intl-tel-input-mobile/build/css/intlTelInput.css';```
 
 
 *  .iti-flag {background-image: url("../assets/imgs/flags/flags.png");}
@@ -58,10 +58,10 @@ In order to use this directive, you need to add " ionicTelInput" directive with 
 * modifying the flags files to meet ionic mobile app
 
 
-* **(intlTelInputObject)** returns original element which hold **intl-tel-input** instance.
+* **(intlTelInputObject)** returns original element which hold **intl-tel-input-mobile** instance.
 
 # How to use this instance?
-You can use it perform any functionality that is available on intl-tel-input plugin. **For example**, in your component,
+You can use it perform any functionality that is available on intl-tel-input-mobile plugin. **For example**, in your component,
 ```
 telInputObject(obj) {
     console.log(obj);
