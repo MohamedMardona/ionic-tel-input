@@ -7,7 +7,7 @@
 Run following command to install  ionic-tel-input
 
 ```sh
-npm install ionic-tel-input intl-tel-input@12.0.3 --save
+npm install ionic-tel-input intl-tel-input-mobile --save
 ```
 
 After install, you need to add **intlTelInput.css**.

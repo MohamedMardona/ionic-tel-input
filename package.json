@@ -1,31 +1,31 @@
 {
-  "_from": "ionic-tel-input@^1.0.3",
-  "_id": "ionic-tel-input-ionic@1.0.3",
+  "_from": "ionic-tel-input@^1.0.5",
+  "_id": "ionic-tel-input-ionic@1.0.5",
   "_inBundle": false,
   "_location": "/ionic-tel-input",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "ionic-tel-input@^1.0.3",
+    "raw": "ionic-tel-input@^1.0.5",
     "name": "ionic-tel-input",
     "escapedName": "ionic-tel-input",
-    "rawSpec": "^1.0.3",
+    "rawSpec": "^1.0.5",
     "saveSpec": null,
-    "fetchSpec": "^1.0.3"
+    "fetchSpec": "^1.0.5"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
   
-  "_spec": "ionic-tel-input@1.0.3",
+  "_spec": "ionic-tel-input@1.0.5",
   "bugs": {
     "url": "git+https://github.com/MohamedMardona/ionic-tel-input.git"
   },
   "bundleDependencies": false,
   "dependencies": {
-    "intl-tel-input": "12.0.3",
+    "intl-tel-input-mobile": "1.0.1",
     "jquery": "^3.1.1"
   },
   "deprecated": false,
@@ -35,7 +35,7 @@
     "@angular/compiler-cli": "^6.0.3",
     "@angular/core": "^6.0.3",
     "@angular/platform-server": "^5.2.0",
-    "@types/intl-tel-input": "0.0.8",
+    "@types/intl-tel-input-mobile": "0.0.8",
     "@types/jquery": "<2.2",
     "es6-shim": "^0.35.3",
     "http-server": "^0.11.1",
@@ -48,7 +48,7 @@
   "keywords": [
     "Angular2",
     "Library",
-    "intl-tel-input"
+    "intl-tel-input-mobile"
   ],
   "license": "MIT",
   "main": "ionic-tel-input.js",
@@ -66,5 +66,5 @@
     "watch": "tsc -p src -w"
   },
   "typings": "./ionic-tel-input.d.ts",
-  "version": "1.0.3"
+  "version": "1.0.5"
 }
