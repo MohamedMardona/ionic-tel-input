@@ -1,7 +1,7 @@
 import { ElementRef, EventEmitter, OnInit } from '@angular/core';
 // import 'intl-tel-input';
-import 'intl-tel-input/build/js/intlTelInput-jquery'
-import 'intl-tel-input/build/js/utils';
+import 'intl-tel-input-mobile/build/js/intlTelInput-jquery'
+import 'intl-tel-input-mobile/build/js/utils';
 export declare class IonicTelInput implements OnInit {
     private el;
     ionicTelInputOptions: any;
