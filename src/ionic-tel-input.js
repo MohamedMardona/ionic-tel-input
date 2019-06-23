@@ -7,7 +7,7 @@ var IonicTelInput = /** @class */ (function () {
         this.el = el;
         this.hasError = new EventEmitter();
         this.ionicTelOutput = new EventEmitter();
-        this.countryChaionice = new EventEmitter();
+        this.countryChange = new EventEmitter();
         this.intlTelInputObject = new EventEmitter();
     }
      ionicTelInput.prototype.ngOnInit = function () {
@@ -19,8 +19,8 @@ var IonicTelInput = /** @class */ (function () {
         else {
             this.ionicTelInput.intlTelInput();
         }
-        this.ionicTelInput.on("countrychaionice", function (e, countryData) {
-            _this.countryChaionice.emit(countryData);
+        this.ionicTelInput.on("countryChange", function (e, countryData) {
+            _this.countryChange.emit(countryData);
         });
         this.intlTelInputObject.emit(this.ionicTelInput);
     };
@@ -54,7 +54,7 @@ var IonicTelInput = /** @class */ (function () {
          ionicTelInputOptions: [{ type: Input, args: ['ionicTelInputOptions',] }],
         hasError: [{ type: Output, args: ['hasError',] }],
          ionicTelOutput: [{ type: Output, args: ['ionicTelOutput',] }],
-        countryChaionice: [{ type: Output, args: ['countryChaionice',] }],
+        countryChange: [{ type: Output, args: ['countryChange',] }],
         intlTelInputObject: [{ type: Output, args: ['intlTelInputObject',] }],
         onBlur: [{ type: HostListener, args: ['blur',] }]
     };
