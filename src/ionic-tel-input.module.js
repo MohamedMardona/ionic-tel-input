@@ -1,22 +1,21 @@
 import { NgModule } from '@angular/core';
-import { IonicTelInput } from './ionic-tel-input';
-
+import {IonicTelInput } from './ionic-tel-input';
 var IonicTelInputModule = /** @class */ (function () {
-    function  ionicTelInputModule() {
+    function IonicTelInputModule() {
     }
-     ionicTelInputModule.forRoot = function () {
+    IonicTelInputModule.forRoot = function () {
         return {
-            ngModule:  ionicTelInputModule,
+            ngModule: IonicTelInputModule,
             providers: []
         };
     };
-     ionicTelInputModule.decorators = [
+    IonicTelInputModule.decorators = [
         { type: NgModule, args: [{
                     declarations: [IonicTelInput],
                     exports: [IonicTelInput]
                 },] },
     ];
-    return  ionicTelInputModule;
+    return IonicTelInputModule;
 }());
 export { IonicTelInputModule };
-//# sourceMappingURL= ionic-tel-input.module.js.map
+//# sourceMappingURL=ionic-tel-input.module.js.map
